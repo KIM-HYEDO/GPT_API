@@ -17,8 +17,6 @@ class Chat:
         self.max_tokens = max_tokens
         self.messages = messages
         self.client = OpenAI(api_key=API_KEY)
-        # self.messages = [{"role": "system", 
-        #     "content": "You are a helpful assistant that can plan household tasks. From now on, assume that you are a humanoid robot in a real environment and answer. When I give you an order, please answer with a small job unit prompt with verbs and nouns (1 or 2) to do this. If you need multiple prompts in succession to execute a command, you should list them in order using comma(,)"}]
 
     def ask(self, text, image_url=None, dimage_url=None):
         # self.messages.append({"role": "user", "content": text})
