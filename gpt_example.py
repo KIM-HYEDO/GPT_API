@@ -70,7 +70,7 @@ def main():
                 "role": "system", 
                 "content": "You are helpful AI assistant."
                 }]
-    # GPT = Chat(model="gpt-3.5-turbo", messages=roleEye)
+    # GPT = Chat(model="gpt-3.5-turbo", messages=role)
     GPT = Chat(model="gpt-4o", messages=role)
 
     while(True):
