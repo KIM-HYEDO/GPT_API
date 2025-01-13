@@ -83,7 +83,6 @@ def main():
             print(ans)
         except EOFError:
             print("Control+D detected. Shutting down the node.")
-            rospy.signal_shutdown('User requested shutdown via Control+D')
             break
 
 if __name__ == '__main__':
