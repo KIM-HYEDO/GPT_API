@@ -64,8 +64,7 @@ def encode_image(cv_image):
     return base64.b64encode(buffer).decode('utf-8')
         
 def main():
-    # img = cv2.imread("/path/to/image")
-    img = cv2.imread("/home/dyros/catkin_ws/src/tocabi/archimist/images/image_5.jpg")
+    img = cv2.imread("/path/to/image")
 
     role   = [{
                 "role": "system", 
